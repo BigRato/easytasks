@@ -1,0 +1,1 @@
+const tasks = ['Estudar CAPM', 'Finalizar projeto']; document.getElementById('tasks').innerHTML = tasks.map(t => `<li>${t}</li>`).join('');
